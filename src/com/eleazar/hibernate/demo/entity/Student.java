@@ -13,13 +13,13 @@ public class Student {
 	@Column(name="id")
 	int id;
 	
-	@Column(name="id")
+	@Column(name="first_name")
 	String firstName;
 	
-	@Column(name="id")
+	@Column(name="last_name")
 	String lastName;
 	
-	@Column(name="id")
+	@Column(name="email")
 	String email;
 	
 	public Student() {
